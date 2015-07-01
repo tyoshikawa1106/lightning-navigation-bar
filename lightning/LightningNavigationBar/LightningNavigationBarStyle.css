@@ -1,0 +1,69 @@
+.THIS a {
+    color: #000;
+}
+
+.THIS a:hover {
+    text-decoration: none
+}
+
+.THIS .fixed {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.THIS .gnav {
+    display: table;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.THIS .gnav li {
+    display: table-cell;
+    table-layout: fixed;
+    width: 20%;
+    text-align: center;
+    border-right: 1px solid #FFFFFF;
+}
+
+.THIS .gnav li:last-of-type {
+    border: none
+}
+
+.THIS .gnav a {
+    display: block;
+    padding: 10px 0;
+    text-decoration: none;
+    background-color: #D96383;
+    color: #FFFFFF;
+    font-size: 12px
+}
+
+.THIS .gnav a:hover {
+    opacity:0.9;
+}
+
+.THIS .gnav .naviIcons {
+    display: block;
+    padding-bottom: 3px;
+    font-size: 22px
+}
+
+@media screen and (min-width: 768px) {
+    .THIS .gnav a {
+        display: block;
+        padding: 10px 0;
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 16px
+    }
+    .THIS .gnav .naviIcons {
+        display: inline-block;
+        padding-bottom: 0;
+        padding-right: 10px;
+        font-size: 22px
+    }
+}
