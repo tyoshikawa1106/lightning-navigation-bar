@@ -1,8 +1,8 @@
 <aura:component implements="flexipage:availableForAllPageTypes,force:appHostable">
     <ltng:require styles="/resource/NavigationBarLibrary/ionicons/css/ionicons.min.css" />
     <div aura:id="aura-cmp">
-		<nav>
-			<ul class="gnav">
+        <nav>
+            <ul class="gnav">
                 <li>
                     <a href="#" onclick="{!c.searchLink}">
                         <i class="naviIcons ion-android-search" />
@@ -27,7 +27,7 @@
                         <ui:outputText value="Translate" />
                     </a>
                 </li>
-			</ul>
-		</nav>
+            </ul>
+        </nav>
     </div>
 </aura:component>
